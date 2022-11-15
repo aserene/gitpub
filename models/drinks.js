@@ -41,4 +41,6 @@ const drinks = [
     }
   ]
 
+// Capitalize the Names 
+
   module.exports = drinks
