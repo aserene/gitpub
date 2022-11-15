@@ -4,23 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Drinks Index</title>
+    <title>Home</title>
 </head>
 <body>
     <style type="text/css">
         body {
-            background-color:black;
+            background-color: black;
             color: white
         }
     </style>
-    <h1>Drinks!</h1>
-    <ul>
-        <% for(let i = 0; i < allDrinks.length; i++) { %>
-            <li>
-                <a href="/drinks/<%=i%>"><%=allDrinks[i].name %></a>
-            </li>
-        <% } %>
-    </ul>
-    <a href="/">Return to Home</a>
+    <h1>Welcome to GitPub!</h1>
+    <a href="/drinks">Drinks!</a>
+    <a href="/food">Bites!</a>
 </body>
 </html>

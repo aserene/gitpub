@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>At Foo Bar</title>
+</head>
+<body>
+    <style type="text/css">
+        body {
+            background-color:black;
+            color: white
+        }
+    </style>
+    <h1>~At foo bar~</h1>
+    <h2>
+        <%=drinks.name; %>
+    </h2>
+    <img src="../models/drinks.js" <%=drinks.image %>alt="Picture of <% drinks.name %>">
+    <h3>
+        <%= drinks.price ;%>
+    </h3>
+    <a href="/drinks"><button>Return to Drinks index</button></a>
+</body>
+</html>

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Drinks Index</title>
+    <title>At Foo Bar</title>
 </head>
 <body>
     <style type="text/css">
@@ -13,14 +13,14 @@
             color: white
         }
     </style>
-    <h1>Drinks!</h1>
-    <ul>
-        <% for(let i = 0; i < allDrinks.length; i++) { %>
-            <li>
-                <a href="/drinks/<%=i%>"><%=allDrinks[i].name %></a>
-            </li>
-        <% } %>
-    </ul>
-    <a href="/">Return to Home</a>
+    <h1>~At foo bar~</h1>
+    <h2>
+        <%=food.name; %>
+    </h2>
+    <img src="../models/food.js" <%=food.image %>alt="Picture of <%=food.name %>">
+    <h3>
+        <%= food.price ;%>
+    </h3>
+    <a href="/food"><button>Return to Bites index</button></a>
 </body>
 </html>
