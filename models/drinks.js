@@ -12,7 +12,7 @@ const drinks = [
     {
       name: 'hack & coke',
       price: 1,
-      image: 'https://i.imgur.com/rLOXFRI.jpg'
+      image: 'https://i.imgur.com/rLOXFRI.png'
     },
     {
       name: 'whiskey-value pair',
